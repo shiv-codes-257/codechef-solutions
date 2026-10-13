@@ -1,0 +1,7 @@
+t = int(input())
+for values in range(t):
+    x,y = map(int,input().split())
+    if x >= y:
+        print(x-y)
+    elif y >= x:
+        print(y-x)
